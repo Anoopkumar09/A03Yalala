@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="script.js"></script>
+  <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<header>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a>ANOOP</a></li>
+        <li><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li class = "active" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Semester <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/sem1">Semester 1</a></li>
+          </ul>
+        </li>
+        <li><a href="/guestbook">Guest Book</a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+<div class="container">
+<div class="row">
+	<div class="col-md-8">
+    <form>
+    <div class="panel panel-default">
+      <div class="panel-heading">Calculate your Scores</div>
+        <table class="table table-bordered">
+        <tr>
+          <th>Exams</th>
+          <th>Max Points</th>
+          <th>Scored points</th>
+        </tr>
+      <tr>
+        <td>Exam 1</td>
+        <td><input  name="total" type="text" id="first"  ></td>
+        <td><input id="second" name="score" type="text" ></td>
+      </tr>
+      <tr>
+        <td>Exam 2</td>
+        <td><input  id="third" name="total" type="text" ></td>
+        <td><input  id="fourth" name="score" type="text" ></td>
+      </tr>
+      <tr>
+        <td>Exam 3</td>
+        <td><input  name="total" id="fifth" type="text" ></td>
+        <td><input  name="score" type="text" id="sixth" ></td>
+      </tr>
+      <tr>
+        <td>final exam</td>
+        <td><input  name="total" type="text" id="seven"></td>
+        <td><input  name="score" type="text" id="eight"></td>
+      </tr>
+      <tr>
+        <td>Weekly Lab exams</td>
+        <td><input  name="total" type="text" id="nine"></td>
+        <td><input  name="score" type="text" id="ten"></td>
+      </tr>
+      <tr>
+        <td>All Lab Exams</td>
+        <td><input  name="total" type="text" id="eleven"></td>
+        <td><input  name="score" type="text" id="twelve"></td>
+      </tr>
+      <tr>
+        <td>Attendence</td>
+        <td><input  name="total" type="text" id="thirteen"></td>
+        <td><input  name="score" type="text" id="fourteen"></td>
+      </tr>
+      <tr>  
+        <th>Total score</th>
+        <td><input  name="total" type="text" id="fifteen"></td>
+        <td><input  name="score" type="text" id="sixteen"></td>
+      </tr>
+      <tr>  
+        <th>Percentage %</th>
+        <td colspan="2"><input  type="text" id="seventeen" ></td>
+      </tr>
+      </table>
+      <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default" onclick="sum1()">Calculate Score</button>
+      </div>
+      </form>
+      </div>
+	  </div>
+
+</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<footer>
+    <span> Anoop kumar Yalala &copy; 2016 </span>
+  </footer> 
+</body>
+</html>

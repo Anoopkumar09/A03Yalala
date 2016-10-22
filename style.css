@@ -1,0 +1,40 @@
+.navbar-nav>li:hover {
+    background-color:cyan;
+}
+
+#div1{
+    color: black;
+    margin-left: 0px;
+    width: 1200px;
+    height: 1500px;
+    font-size: 20px;
+}
+
+table,th,tr,td{border: 1px solid black;
+                margin-left: 0px;
+                width: 50px;
+}
+
+#total, #score, #percent, #first,#second,#third,#fourth,#fifth,#sixth,#seven,#eight,#nine,#ten,#eleven,#twelve,#thirteen,#fourteen,#fifteen,#sixteen,#seventeen{
+	width: 90px;
+}
+
+.table table-bordered{
+	width : 100px
+}
+
+footer{
+  position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    padding: 3%;
+    text-align: center;
+    border-top: 1px #ffffff;
+    color: #cfcfcf;
+}
+
+body{
+    background-image: url(../back.jpg);
+};

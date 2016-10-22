@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Express Guestbook</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/guestbook.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body >
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a>ANOOP</a></li>
+        <li ><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Semester <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/sem1">Semester 1</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="/guestbook">Guest Book</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<h1>
+Express Guestbook
+<a href="/new-entry" class="btn btn-primary pull-right">
+Write in the guestbook
+</a>
+</h1>
